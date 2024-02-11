@@ -35,7 +35,7 @@
   <body>
     <header>
       <div class="container-fluid">
-        <h1><img src="img/gabewonders-logo.png" alt="Gabe Wonders"></h1>
+        <h1>GABE WONDERS</h1>
         <p>Coder. Web Designer. Photographer. Geek.</p>
         <p class="social text-center">
           <a href="http://www.facebook.com/gabewonders" target="_blank"><span class="symbol">circlefacebook</span></a>
@@ -54,36 +54,26 @@
           <h2>My Work</h2>
           <div class="row">
             <div class="work-item col-sm-4">
-              <a href="http://cookinginthecreek.com/" target="_blank">
-                <img src="img/cookinginthecreek-logo.jpg" class="img-circle img-responsive center-block">
-                <h3>Cooking in the Creek</h3>
-              </a>
+              <img src="img/cookinginthecreek-logo.jpg" class="img-circle img-responsive center-block" data-toggle="modal" data-target="#cookinginthecreekModal">
+              <h3>Cooking in the Creek</h3>
             </div>
             <div class="work-item col-sm-4">            
-              <a href="http://busywonders.com/" target="_blank">
-                <img src="img/busywonders-logo.jpg" class="img-circle img-responsive center-block">
-                <h3>busyWonders</h3>
-              </a>
+              <img src="img/busywonders-logo.jpg" class="img-circle img-responsive center-block" data-toggle="modal" data-target="#busywondersModal">
+              <h3>busyWonders</h3>
             </div>
             <div class="work-item col-sm-4">
-              <a href="http://gabewonders.com/warners/" target="_blank">
-                <img src="img/warners-logo.jpg" class="img-circle img-responsive center-block">
-                <h3>Warner's Country Day School</h3>
-              </a>
+              <img src="img/warners-logo.jpg" class="img-circle img-responsive center-block" data-toggle="modal" data-target="#warnerschoolModal">
+              <h3>Warner's Country Day School</h3>
             </div>
           </div>
           <div class="row">
             <div class="work-item col-sm-6">
-              <a href="http://thecbrgroup.com/" target="_blank">
-                <img src="img/cbr-logo.jpg" class="img-circle img-responsive center-block">
-                <h3>CBR Group</h3>
-              </a>
+              <img src="img/cbr-logo.jpg" class="img-circle img-responsive center-block" data-toggle="modal" data-target="#cbrModal">
+              <h3>CBR Group</h3>
             </div>
             <div class="work-item col-sm-6">            
-              <a href="http://gabewonders.com/wedding/" target="_blank">
-                <img src="img/wedding-logo.jpg" class="img-circle img-responsive center-block">
-                <h3>Meg and Gabe's Wedding</h3>
-              </a>
+              <img src="img/wedding-logo.jpg" class="img-circle img-responsive center-block" data-toggle="modal" data-target="#megGabeWeddingModal">
+              <h3>Meg and Gabe's Wedding</h3>
             </div>
           </div>          
         </div>
@@ -105,9 +95,89 @@
         <p>I’m currently available for freelance projects.</p> 
         <p>If you’re interested in working with me, please get in touch using the button below.<br>
           Any suggestions, advice or life tips are acceptable too.</p>
-        <a href="mailto:gabe@gabewonders.com" target="_blank"><button class="btn btn-primary btn-lg">Get in touch with me</button></a>
+        <a href="mailto:gabewonders.web@gmail.com" target="_blank"><button class="btn btn-primary btn-lg">Get in touch with me</button></a>
       </div>
     </footer>
+
+    <!-- MODAL: Cooking in the Creek -->
+    <div class="modal fade" id="cookinginthecreekModal" tabindex="-1" role="dialog" aria-labelledby="cookinginthecreekLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="cookinginthecreekLabel">Cooking in the Creek</h4>
+          </div>
+          <div class="modal-body">
+            <p>This was a Wordpress website I created for my wife and I to share our recipes. We created this 2014 shortly before we were married, when we had no kids and all the time in the world. Our goal was to hit 100 recipes. I don't think we ever made this goal but we had a lot of fun creating something together. The original Wordpress website is no longer up and running but I did archive the recipes to a Jekll website hosted on github. You can view it at <a href="http://cookinginthecreek.com/" target="_blank">cookinginthecreek.com</a></p><br />
+            <img src="img/cookinginthecreek-homepage.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL: Busy Wonders -->
+    <div class="modal fade" id="busywondersModal" tabindex="-1" role="dialog" aria-labelledby="busywondersLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="busywondersLabel">busyWonders</h4>
+          </div>
+          <div class="modal-body">
+            <p>I built this website for my sister in law's toddler group classes. This was another Wordpress site I created. I designed and created the theme myself.</a></p><br />
+            <img src="img/busywonders-homepage.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL: Warner's Country Day School -->
+    <div class="modal fade" id="warnerschoolModal" tabindex="-1" role="dialog" aria-labelledby="warnerschoolLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="warnerschoolLabel">Warner's Country Day School</h4>
+          </div>
+          <div class="modal-body">
+            <p>A simple Wordpress website I created for a local preschool.</a></p><br />
+            <img src="img/warnerschool-homepage.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL: CBR Group -->
+    <div class="modal fade" id="cbrModal" tabindex="-1" role="dialog" aria-labelledby="cbrLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="cbrLabel">CBR Group</h4>
+          </div>
+          <div class="modal-body">
+            <p>A professional business website I created for a telecommunications company.</a></p><br />
+            <img src="img/cbr-homepage.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL: Meg and Gabe's Wedding -->
+    <div class="modal fade" id="megGabeWeddingModal" tabindex="-1" role="dialog" aria-labelledby="megGabeWeddingLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title text-center" id="megGabeWeddingLabel">Meg and Gabe's Wedding</h4>
+          </div>
+          <div class="modal-body">
+            <p>I created our own wedding Wordpress website to house information for our wedding guests.</a></p><br />
+            <img src="img/wedding-homepage.png" class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
